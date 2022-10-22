@@ -1,2 +1,10 @@
 import './style.css'
-console.log('TS funcionando')
+
+function toggleDarkmode (){
+    document.querySelector('html')?.classList.toggle('dark')
+}
+
+document.querySelectorAll('#moon-icon').forEach((node)=>{
+
+    node.addEventListener('click',toggleDarkmode)
+})

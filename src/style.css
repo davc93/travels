@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html {
+    @apply scroll-smooth
+}
 .Card{
     @apply w-48 h-64 shadow-md rounded-lg flex-none transition-all hover:-translate-y-4 hover:shadow-xl
 }
