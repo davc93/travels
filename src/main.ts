@@ -1,5 +1,4 @@
 import './style.css'
-
 function toggleDarkmode (){
     document.querySelector('html')?.classList.toggle('dark')
 }
